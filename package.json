@@ -1,0 +1,26 @@
+{
+  "name": "virtual-hell-shooter",
+  "version": "0.0.1",
+  "description": "A parody game like frozen bubble",
+  "main": "prettier.config.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "next",
+    "build": "next build",
+    "start": "next start",
+    "deploy": "cross-env NODE_ENV=production next build && cross-env NODE_ENV=production next export -o ./docs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/L1lith/Virtual-Hell-Shooter.git"
+  },
+  "author": "L1lith",
+  "license": "MIT Common Clause",
+  "bugs": {
+    "url": "https://github.com/L1lith/Virtual-Hell-Shooter/issues"
+  },
+  "homepage": "https://github.com/L1lith/Virtual-Hell-Shooter#readme",
+  "dependencies": {
+    "next": "^12.0.7"
+  }
+}
